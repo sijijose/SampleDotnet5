@@ -23,5 +23,6 @@ namespace WebApplication1
             modelBuilder.ApplyConfiguration(new StudentConfiguration());
         }
         public DbSet<Student> Students { get; set; }
+
     }
 }
